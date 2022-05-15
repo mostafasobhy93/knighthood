@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+        
+        <title>Knighthood</title>
+        
+        <!-- Favicon -->
+		<link rel="icon" type="image/png" href="assets/img/favicon.png"/>
+        
+        <!-- Bootstrap -->
+        <link href="assets/css/vendors/bootstrap.min.css" rel="stylesheet">
+        <!-- FontAwesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+        
+        <!-- google font -->
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+       
+        <!-- slick slider -->
+        <link rel="stylesheet" href="assets/css/vendors/slick_slider/slick.css" >
+        <link rel="stylesheet" href="assets/css/vendors/slick_slider/slick-theme.css" >
+        
+        <!-- animate.css -->
+        <link rel="stylesheet" href="assets/css/vendors/animate.min.css">
+        
+        <!-- main css -->
+        <link href="assets/css/style.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <!-- header-top -->
+        <div class="top-bar">
+            <div class="container">
+                <div class="top-bar-container d-flex">
+					<ul class="nav">
+						<li><a href="login.html">LOGIN</a></li>
+						<li><a href="register.html">REGISTER</a></li>
+						<li class="dropdown">
+							<a class="link" href="javascript:void(0)">Account <i class="fas fa-chevron-down"></i></a>
+							<ul class="droplist">
+								<li><a href="account-dashboard.html"> My Account</a></li>
+								<li><a href="cart.html"> Cart</a></li>
+								<li><a href="wishlist.html"> Wishlist</a></li>
+								<li><a href="orders.html"> My Orders</a></li>
+								<li><a href="#"> Log Out</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a class="link" href="javascript:void(0)"><img src="assets/img/icon/en.png"> EN <i class="fas fa-chevron-down"></i></a>
+							<ul class="droplist">
+								<li><a href="#"><img src="assets/img/icon/en.png"> English</a></li>
+								<li><a href="#"><img src="assets/img/icon/ar.png"> Arabic</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a class="link" href="javascript:void(0)">USD <i class="fas fa-chevron-down"></i></a>
+							<ul class="droplist">
+								<li><a href="#"> USD</a></li>
+								<li><a href="#"> EURO</a></li>
+							</ul>
+						</li>
+					</ul>
+               		<form class="search">
+               			<div class="form-group mb-0">
+               				<input type="text" placeholder="Search...">
+               				<button type="button"><i class="fas fa-search"></i></button>
+               			</div>
+               		</form>
+                </div>
+            </div>
+        </div>
+        
+        <div id="nav-placeholder"></div>
+        <!-- start header -->
+        <header>
+            <div class="container">
+                <nav>
+                    <div class="logo">
+                        <a href="index.html"><img src="assets/img/logo.jpg"></a>
+                    </div>
+                    <div class="bars">
+                        <button class="nav-btn">
+							<span></span>
+						</button>
+                    </div>
+                    <div class="links-list">
+                        <ul>
+                            <li class="list-item dropdown">
+                                <a class="link" href="javascript:void(0)">Categories <i class="fas fa-chevron-right arrow"></i></a>
+                                <ul class="droplist">
+                                    <li>
+                                        <a href="javascript:void(0)" class="sub-link">Clothing <i class="fas fa-chevron-right arrow"></i></a>
+                                        <ul class="sub-menu">
+                                        	<li><a href="products.html">Men</a></li>
+                                        	<li><a href="products.html">Women</a></li>
+                                        	<li><a href="products.html">Kids</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)" class="sub-link">Bags <i class="fas fa-chevron-right arrow"></i></a>
+                                        <ul class="sub-menu">
+                                        	<li><a href="products.html">Men</a></li>
+                                        	<li><a href="products.html">Women</a></li>
+                                        	<li><a href="products.html">Kids</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)" class="sub-link">Accessories <i class="fas fa-chevron-right arrow"></i></a>
+                                        <ul class="sub-menu">
+                                        	<li><a href="products.html">Men</a></li>
+                                        	<li><a href="products.html">Women</a></li>
+                                        	<li><a href="products.html">Kids</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="list-item">
+								<a class="link" href="about.html">About Us</a>
+							</li>
+                            <li class="list-item">
+                                <a class="link" href="custom-design.html">Custom Design</a>
+                            </li>
+                            <li class="list-item">
+                                <a class="link" href="contact.html">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="cart-div dropdown">
+                    	<a href="cart.html" class="cart-link">
+                    		<i class="fas fa-shopping-bag"></i>
+                    		<span class="count">0</span>
+                    	</a>
+                    	<ul class="cart-menu droplist">
+                    		<li class="cart-item">
+                    			<h6 class="cart-title text-center">Your Shopping Cart!</h6>
+                    		</li>
+                    		<li class="cart-item d-flex">
+                    			<div class="cart-img">
+                    				<img src="assets/img/products/3.jpg" class="img-fluid">
+                    			</div>
+                    			<div class="cart-info">
+                    				<a href="#">Calvin Klein</a>
+                    				<p>Lorem ipsum dolor sit amet</p>
+                    				<strong>XS</strong>
+                    				<button class="delete-item"><i class="fas fa-times"></i></button>
+                    			</div>
+                    		</li>
+                    		<li class="cart-item d-flex">
+                    			<div class="cart-img">
+                    				<img src="assets/img/products/3.jpg" class="img-fluid">
+                    			</div>
+                    			<div class="cart-info">
+                    				<a href="#">Calvin Klein</a>
+                    				<p>Lorem ipsum dolor sit amet</p>
+                    				<strong>XS</strong>
+                    				<button class="delete-item"><i class="fas fa-times"></i></button>
+                    			</div>
+                    		</li>
+                    		<li class="cart-item">
+                    			<a href="cart.html" class="view-cart">View Cart</a>
+                    		</li>
+                    	</ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- end header -->
+        
+        <!-- page banner -->
+        <div class="page-banner">
+			<nav aria-label="breadcrumb">
+				<ol class="breadcrumb px-5">
+					<li class="breadcrumb-item"><a href="#">Home</a></li>
+					<li class="breadcrumb-item active" aria-current="page">Login</li>
+				</ol>
+			</nav>
+        </div>
+        
+        <!-- login section -->
+        <div class="register-section sec-padding wow fadeInUp">
+        	<div class="container">
+        		<div class="row">
+        			<div class="col-lg-7">
+						<div class="register-form mb-3">
+							<div class="section-title text-center">
+								<h2>Register</h2>
+							</div>
+							<form class="main-form">
+								<div class="form-group">
+									<label>Name</label>
+									<input type="text" placeholder="enter name...">
+								</div>
+								<div class="form-group">
+									<label>Email</label>
+									<input type="text" placeholder="enter email...">
+								</div>
+								<div class="form-group">
+									<label>Address</label>
+									<input type="text" placeholder="enter address...">
+								</div>
+								<div class="form-group">
+									<label>Password</label>
+									<input type="password">
+								</div>
+								<div class="d-flex justify-content-between mb-3">
+									<div class="form-check">
+										<input class="form-check-input w-auto h-auto" type="checkbox" value="" id="defaultCheck1">
+										<label class="form-check-label" for="defaultCheck1">agree to our Terms and Conditions</label>
+									</div>
+								</div>
+								<button class="main-btn">Register</button>
+							</form>
+						</div>
+        			</div>
+        			<div class="col-lg-5">
+        				<div class="log-acc text-center">
+        					<div class="section-title text-center">
+								<h2>Have Account?</h2>
+							</div>
+       						<p>You have an account ?</p>
+       						<a href="login.html" class="main-btn dark">Sign In</a>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        </div>
+        
+        <!-- start footer -->
+        <footer class="bg-blue wow fadeInUp">
+            <div class="container-fluid">
+                <div class="footer-content">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-12">
+                            <div class="footer-col">
+                                <div class="footer-title">
+                                    <h5>Knighthood </h5>
+                                </div>
+                                <ul class="links-list">
+                                    <li>
+                                        <a href="#">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">About Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Terms &amp; Conditions</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Contact Us</a>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-12">
+                            <div class="footer-col">
+                                <div class="footer-title">
+                                    <h5>Customer Serivce</h5>
+                                </div>
+                                <ul class="links-list">
+                                    <li>
+                                        <a href="#">Faq</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Contact Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Privacy Policy</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Help</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-12">
+                            <div class="footer-col">
+                               	<div class="footer-title">
+                                    <h5>Contact Us</h5>
+                                </div>
+                                <ul class="contact-list">
+                                    <li>
+                                        <a href="tel: +96 000 000 000">
+                                        	<i class="fas fa-phone"></i>
+                                        	<span>+96 000 0000 00</span>
+                                        </a>
+                                    </li>
+                                    <li>
+										<i class="fas fa-envelope"></i>
+										<span>mail@knighthood.com</span>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <span>Building, Street, Europe</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-12">
+                            <div class="footer-col">
+                                <div class="footer-title">
+                                    <h5>Visit Us </h5>
+                                </div>
+                                <ul class="links-list">
+                                    <li>
+                                        <p>Sunday - Thursday: <strong> 9:30 - 18:00</strong></p>
+                                    </li>
+                                    <li>
+                                        <p>Friday: <strong> 9:30 - 18:00</strong></p>
+                                    </li>
+                                </ul>
+                                <div class="footer-social">
+									<ul class="social-list">
+										<li>
+											<a href="#"><i class="fab fa-facebook-f"></i></a>
+										</li>
+										<li>
+											<a href="#"><i class="fab fa-twitter"></i></a>
+										</li>
+										<li>
+											<a href="#"><i class="fab fa-instagram"></i></a>
+										</li>
+										<li>
+											<a href="#"><i class="fab fa-linkedin-in"></i></a>
+										</li>
+									</ul>
+								</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="footer-bottom">
+                    <div class="copyrights">
+                        <p class="mb-0">© 2021 <a href="https://pioneers-solutions.com/" target="_blank" rel="nofollow"> Pioneers Solutions </a>, All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+<!--      end footer -->
+        
+       
+<!--        scroll top btn -->
+        <div id="scroll-top">
+            <span class="fas fa-chevron-up"></span>
+        </div>
+        
+        
+<!--        jquery -->
+        <script src="assets/js/vendors/jquery-3.3.1.min.js"></script>
+<!--        wow -->
+        <script src="assets/js/vendors/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+              
+<!--        bootstrap library -->
+        <script src="assets/js/vendors/proper.min.js"></script>
+        <script src="assets/js/vendors/bootstrap.min.js"></script>
+        
+        <!--        slick -->
+        <script src="assets/js/vendors/slick.min.js"></script>
+        
+<!--        Main Js -->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
